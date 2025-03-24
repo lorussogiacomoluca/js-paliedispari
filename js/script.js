@@ -16,9 +16,9 @@ alert((isPalindroma) ? (`La stringa e' palindorma`) : (`La stringa non e' palind
 //Pari e Dispari
 
 //Prompt di scelta per l'utente tra 'pari' o 'dispari'
-
-//Inserimento valore da 1 a 5
-//Funzione per selezionare un numero random per il PC da 1 a 5
-//Somma dei due numeri
-//Funzione per stabilire se la somma e' pari o dispari
-//Funzione per stabilire il vincitore
+let sceltaPariOrDispari = prompt('Scegli tra pari o dispari').toLocaleLowerCase();
+let isPari = false;
+if (sceltaPariOrDispari === 'pari'){
+    isPari = true;
+}
+alert(`Hai scelto ${sceltaPariOrDispari}`)

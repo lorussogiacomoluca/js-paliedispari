@@ -7,3 +7,8 @@ function checkPalindromo(word){
 //Chiedere all'utente di inserire una parola
 let parola = prompt('Inserisci una parola')
 
+//Chiamare la funzione
+let isPalindroma = checkPalindromo(parola)
+
+//Stampare messaggio all'utente
+alert((isPalindroma) ? (`La stringa e' palindorma`) : (`La stringa non e' palindorma`))

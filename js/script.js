@@ -46,7 +46,6 @@ function winnerIs(a,b){
     return (a === b) 
 }
 
-
 //ESECUZIONE
 function playGame(sceltaPariOrDispari, isPari, sceltaNumero){
     let randNum = generateRandom();
@@ -58,3 +57,5 @@ function playGame(sceltaPariOrDispari, isPari, sceltaNumero){
     return (winnerIs(isPari, sommaEsito)) ? 'Player Wins' : 'Player Loses'
 }
 
+// Start Game
+console.log(playGame(sceltaPariOrDispari, isPari, sceltaNumero));

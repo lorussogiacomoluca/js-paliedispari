@@ -22,3 +22,11 @@ if (sceltaPariOrDispari === 'pari'){
     isPari = true;
 }
 alert(`Hai scelto ${sceltaPariOrDispari}`)
+
+//Inserimento valore da 1 a 5
+let sceltaNumero = parseFloat(prompt('Inserisci un numero da 1 a 5'))
+alert(`Hai scelto ${sceltaNumero} - ${typeof(sceltaNumero)}`)
+//Funzione per selezionare un numero random per il PC da 1 a 5
+function generateRandom(){
+   return Math.floor((Math.random() *5)+1)
+}

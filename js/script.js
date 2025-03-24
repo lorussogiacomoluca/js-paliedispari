@@ -30,3 +30,8 @@ alert(`Hai scelto ${sceltaNumero} - ${typeof(sceltaNumero)}`)
 function generateRandom(){
    return Math.floor((Math.random() *5)+1)
 }
+
+//Somma dei due numeri
+function sommaNumeri(a, b){
+    return a + b
+}

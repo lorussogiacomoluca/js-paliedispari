@@ -40,3 +40,8 @@ function sommaNumeri(a, b){
 function sommaPariOrDispari(a, b){
     return (sommaNumeri(a, b)%2 === 0)
 }
+
+//Funzione per stabilire il vincitore
+function winnerIs(a,b){
+    return (a === b) 
+}

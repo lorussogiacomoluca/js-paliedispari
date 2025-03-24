@@ -35,3 +35,8 @@ function generateRandom(){
 function sommaNumeri(a, b){
     return a + b
 }
+
+//Funzione per stabilire se la somma e' pari o dispari
+function sommaPariOrDispari(a, b){
+    return (sommaNumeri(a, b)%2 === 0)
+}

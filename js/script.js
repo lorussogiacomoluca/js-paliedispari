@@ -45,3 +45,16 @@ function sommaPariOrDispari(a, b){
 function winnerIs(a,b){
     return (a === b) 
 }
+
+
+//ESECUZIONE
+function playGame(sceltaPariOrDispari, isPari, sceltaNumero){
+    let randNum = generateRandom();
+    alert(`Numero generato ${randNum}`);
+    let somma = sommaNumeri(sceltaNumero,randNum);
+    alert(somma);
+    let sommaEsito = sommaPariOrDispari(sceltaNumero,randNum);
+    alert(`La somma e' ${(sommaEsito) ? 'dari' : 'dispari'}`)
+    return (winnerIs(isPari, sommaEsito)) ? 'Player Wins' : 'Player Loses'
+}
+
